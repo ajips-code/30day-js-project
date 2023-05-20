@@ -128,17 +128,17 @@ h1 {
 } 
 
 /* make scale */
-/* .container.hover-left .split.left { */
-  /* width: var(--hover-width); */
-  /* transform: scale(0.85); Added to make the image bigger */
-  /* z-index: 1; Added to bring the left split to the foreground */
-/* } */
+.container.hover-left .split.left {
+  width: var(--hover-width);
+  transform: scale(0.85); /* Added to make the image bigger */
+  z-index: 1; /* Added to bring the left split to the foreground */
+}
 
-/* .container.hover-right .split.right { */
-  /* width: var(--hover-width); */
-  /* transform: scale(0.85); Added to make the image bigger */
-  /* z-index: 1; Added to bring the right split to the foreground */
-/* } */
+.container.hover-right .split.right {
+  width: var(--hover-width);
+  transform: scale(0.85); /* Added to make the image bigger */
+  z-index: 1; /* Added to bring the right split to the foreground */
+}
 
 @media (max-width:800px){
   h1 {
