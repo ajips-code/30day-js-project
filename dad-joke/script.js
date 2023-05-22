@@ -5,6 +5,7 @@ jokeButton.addEventListener('click', generateJoke);
 
 generateJoke();
 
+// Using Asyncrhonus Await
 async function generateJoke() {
   const config = {
     headers: { 
@@ -15,3 +16,19 @@ async function generateJoke() {
   const data = await res.json();
   jokeElement.innerText = data.joke;
 }
+
+
+// USING .then()
+// function generateJoke() {
+//   const config = {
+//     headers: {
+//       Accept: 'application/json',
+//     },
+//   }
+
+//   fetch('https://icanhazdadjoke.com', config)
+//     .then((res) => res.json())
+//     .then((data) => {
+//       jokeEl.innerHTML = data.joke
+//     })
+// }
