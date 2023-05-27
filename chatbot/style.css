@@ -1,0 +1,29 @@
+#chatContainer {
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+h1 {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inputContainer {
+  margin-top: 10px;
+}
+
+#userInput {
+  width: 300px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#sendButton {
+  padding: 5px 10px;
+  font-size: 16px;
+}
